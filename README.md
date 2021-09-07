@@ -22,6 +22,13 @@ You'll need to clone this repo using the command
 git clone https://github.com/meganthoang/uberanalytics.git
 ```
 
+Some tips for running at the command line:
+```
+cd - to change directory
+dir - view what's in the directory (the mac/linux version of this is ls)
+python + filename.py - run your python script
+```
+
 ## Some Helpful Links!
 1. [Kaggle Project Link](https://www.kaggle.com/hugomenz/uber-data-visualization)
 2. [Git Commands Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
