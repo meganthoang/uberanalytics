@@ -6,4 +6,4 @@
 
 print('Test file for commits.')
 print('test123')
-print('Hello, world!')
+print('help')
