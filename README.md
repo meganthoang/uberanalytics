@@ -7,6 +7,8 @@
 
 This is the repository for our initial analytics portfolio project. We'll be following the instructions on Kaggle, found [here.](https://www.kaggle.com/hugomenz/uber-data-visualization)
 
+## Git Commands
+
 We'll be using GitHub for Source/Version Control. Some basic Git commands:
 ``` 
 git status
@@ -22,7 +24,9 @@ You'll need to clone this repo using the command
 git clone https://github.com/meganthoang/uberanalytics.git
 ```
 
-Some tips for running at the command line:
+## Command Line Tips
+
+Running your programs at the command line:
 ```
 cd - to change directory
 dir - view what's in the directory (the mac/linux version of this is ls)
@@ -41,8 +45,8 @@ python + filename.py - run your python script
 
 
 ## Action Items for 9/7/21:
-- [ ] Get set up with Git and Python
-- [ ] Discuss workflow and best practices for source control
-- [ ] Read through Kaggle Uber Analytics Page and get started
+- [x] Get set up with Git and Python
+- [x] Discuss workflow and best practices for source control
+- [x] Read through Kaggle Uber Analytics Page and get started
 - [ ] Discuss future project ideas
 
