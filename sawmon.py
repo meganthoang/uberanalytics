@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 import glob
 import os
 
-
-# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-# python get-pip.py
-# python -m pip install <package>
+%matplotlib inline
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
