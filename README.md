@@ -19,7 +19,7 @@ git push
 
 You'll need to clone this repo using the command
 ```
-git clone https://github.com/meganthoang/uberanalytics
+git clone https://github.com/meganthoang/uberanalytics.git
 ```
 
 ## Some Helpful Links!
