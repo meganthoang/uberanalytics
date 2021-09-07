@@ -7,7 +7,9 @@ from matplotlib import pyplot as plt
 import glob
 import os
 
-%matplotlib inline
+# %matplotlib inline -- for jupyter only
+
+print(os.getcwd())
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
