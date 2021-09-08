@@ -4,7 +4,7 @@
 > This is the repository for our initial analytics portfolio project. We'll be following the instructions on Kaggle, found [here.](https://www.kaggle.com/hugomenz/uber-data-visualization)
 
 
-## Git Command
+## Git Commands
 We'll be using GitHub for Source/Version Control. Some basic Git commands:
   ``` 
   git status
