@@ -1,6 +1,11 @@
 # Resources
 > This is our Resources document, where we'll make all notes of helpful resources, notes, & commands
 
+1. [Git Commands](https://github.com/meganthoang/uberanalytics/blob/main/docs/RESOURCES.md#git-commands)
+2. [Command Line Tips](https://github.com/meganthoang/uberanalytics/blob/main/docs/RESOURCES.md#command-line-tips)
+3. [General Housekeeping](https://github.com/meganthoang/uberanalytics/blob/main/docs/RESOURCES.md#general-housekeeping)
+4. [Helpful Links](https://github.com/meganthoang/uberanalytics/blob/main/docs/RESOURCES.md#some-helpful-links)
+
 ## Git Commands
 We'll be using GitHub for Source/Version Control. Some basic Git commands:
   ``` 
