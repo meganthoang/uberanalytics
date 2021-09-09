@@ -1,5 +1,6 @@
 # Megan's Code
 
+# git commit -am "comment"  --- is a shortcut so you can skip the add step
 # Import necessary modules
 import pandas as pd
 import seaborn as sns
