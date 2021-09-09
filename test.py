@@ -11,7 +11,15 @@ print('Hello,world.')
 
 print('edit!!!!')
 # adding a new line here
+
+
 print('oya')
 # git checkout -b branchname
-# george
-# [paul]
+# git checkout  -- move between branches
+# git checkout -d branchname  -- -D is forced
+# git merge (name of the branch you wanna merge to)
+# git push origin branchname
+
+
+# jupyter notebook style
+# %% <- use this

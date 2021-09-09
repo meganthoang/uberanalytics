@@ -9,12 +9,17 @@
 ## Git Commands
 We'll be using GitHub for Source/Version Control. Some basic Git commands:
   ``` 
-  git status
-  git pull
-  git add 
-  # or 'git add -A' or 'git add .' for "all"
-  git commit -m "add a message here"
-  git push
+  git status 
+  git pull # pulls any updates or changes from the online repo
+  git add filename.py  # or 'git add -A' or 'git add .' for "all"
+  git commit -m "add a message here" # be sure to add a descriptive message
+  git push # pushes your commits to the remote repo
+
+  git checkout -b branchname # creates a branch named branchname
+  git checkout branch # move between branches - replace branch with the name of the branch you're moving to
+  git checkout -d branchname  # -D is force delete
+  git merge (name of the branch you wanna merge to)
+  git push origin branchname
   ```
 
 You'll need to clone this repo using the command
