@@ -8,6 +8,7 @@ import glob
 import os
 
 # %matplotlib inline -- for jupyter only
+#test
 
 print(os.getcwd())
 for dirname, _, filenames in os.walk('/kaggle/input'):
