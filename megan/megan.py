@@ -8,7 +8,7 @@ Notes:
     # #%% matplotlib inline -- for Jupyter Notebook
 '''
 
-# #%% matplotlib inline
+# # %% matplotlib inline
 # first, let's import all necessary modules & assign aliases
 import pandas as pd
 import numpy as np
@@ -79,6 +79,8 @@ print("\nDescribe:_______________________________________")
 print(df.describe(include = 'all', datetime_is_numeric=True))
 print("\nShape:__________________________________________")
 print(df.shape) 
+rows = df.shape[0]
+cols = df.shape[1]
 # df.shape prints the shape of the df in the form (rows, columns)
 
 # Show the memory usage in megabytes of every column
@@ -87,3 +89,28 @@ print(df.memory_usage(deep=True) * 1e-6)
 print("\nTotal: ", df.memory_usage(deep=True).sum() * 1e-6)
 
 # Cross-Analysis
+
+# function that counts the rows
+def count_rows(rows):
+    return len(rows)
+
+# now, instantiate a new dataframe that stores the data by hour and day
+'''
+.groupby() - a groupby operation involves some combination of splitting the object, 
+    applying a function, and combining the results. This can be used to group large 
+    amounts of data and compute operations on these groups.
+.split() - splits a string into a list where each word is a list item
+.apply() - takes in a function to be applied 
+.unstack() - Returns a DataFrame having a new level of column labels whose inner-most 
+    level consists of the pivoted index labels.
+'''
+df_hd = df.groupby('Hour Day'.split()).apply(count_rows).unstack()
+print("\nHead:___________________________________________")
+print(df_hd.head())
+plt.figure(figsize = (12,8))
+
+#Using the seaborn heatmap function 
+ax = sns.heatmap(df_hd, cmap=cm.YlGnBu, linewidth = .5)
+ax.set(title="Trips by Hour and Day");
+print(ax)
+
