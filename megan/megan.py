@@ -21,7 +21,8 @@ import seaborn as sns
 # from mpl_toolkits.basemap import Basemap # so apparently this shit's been deprecated
 from matplotlib import cm #Colormap
 
-#Animation Modules
+
+# animation Modules
 from matplotlib.animation import FuncAnimation
 import matplotlib.animation as animation
 
@@ -113,4 +114,7 @@ plt.figure(figsize = (12,8))
 ax = sns.heatmap(df_hd, cmap=cm.YlGnBu, linewidth = .5)
 ax.set(title="Trips by Hour and Day");
 print(ax)
+
+# making some changes
+# making some more
 
