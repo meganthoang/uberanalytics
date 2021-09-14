@@ -1,21 +1,34 @@
 # Import necessary modules
 
+# # %% matplotlib inline
+# Import all necessary modules & assign aliases
 import pandas as pd
-import seaborn as sns
 import numpy as np
-from matplotlib import pyplot as plt
+
+# Visualization modules
+from matplotlib import pyplot as plt # import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Matplotlib basemap toolkit is a library for plotting 2D data on maps in Python
+# from mpl_toolkits.basemap import Basemap # so apparently this shit's been deprecated
+from matplotlib import cm #Colormap
+
+
+# Animation Modules
+from matplotlib.animation import FuncAnimation
+import matplotlib.animation as animation
+
+# Directory modules
 import glob
 import os
 
-# %matplotlib inline -- for jupyter only
-#test
 
+# Preprocessing
+# Find out what the current directory is
 print(os.getcwd())
-for dirname, _, filenames in os.walk('/kaggle/input'):
-    for filename in filenames:
-        print(os.path.join(dirname, filename))
+# prints "C:\Users\megan\OneDrive\Desktop\Analytics\uberanalytics\megan"
 
-
-#test
-#test 2
-# test 3
+# Change the directory to match the location of the data
+#os.chdir("c:/Users/megan/OneDrive/Desktop/Analytics/uber_data")
+#print(os.getcwd()) # print to verify
+# should be set to "C:\Users\megan\OneDrive\Desktop\Analytics\uber_data"
