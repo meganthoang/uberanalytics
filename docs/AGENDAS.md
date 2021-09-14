@@ -13,4 +13,4 @@
 ## Action Items for 9/14/21:
 - [ ] Discuss future project ideas
 - [ ] Begin working through Kaggle instructions
-- [ ] Discuss Pull Requests and GitHub Projects
+- [ ] Discuss Pull Requests, Branches, and Merging
