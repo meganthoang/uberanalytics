@@ -1,6 +1,9 @@
 # Agendas
 > Agendas for our weekly meetings will be documented here. 
 > Meetings are every Tuesday from 3:00 PM to 5:30 PM
+> https://ucf.zoom.us/j/95073637542?pwd=Q2QyVHRTSlFMSE5JOFMySkNpLzBHZz09 
+> Meeting ID: 950 7363 7542 
+> Passcode: analytics 
 
 
 ## Action Items for 9/7/21:
