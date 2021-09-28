@@ -11,6 +11,11 @@
 
 
 ## Action Items for 9/14/21:
-- [ ] Discuss future project ideas
-- [ ] Begin working through Kaggle instructions
-- [ ] Discuss Pull Requests and GitHub Projects
+- [x] Discuss future project ideas
+- [x] Begin working through Kaggle instructions
+- [x] Discuss Pull Requests and GitHub Projects
+
+## Action Items for 9/27/21:
+- [ ] Find Data Sources and discuss project ideas
+- [ ] Identify Project Interests (e.g. I personally would like to pursue a product-driven project)
+- [ ] I think we should maybe in the meantime we could also find just analytics topics to explore, within python & using different modules. We could compile a list of different topics and each focus on a topic for the week, learn it, write a sample script demonstrating different functions, etc. and then share it with the group (kinda similar to how I've been trying to show you guys how to use github/git commands) -- this is just an idea tho
