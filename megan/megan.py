@@ -21,6 +21,7 @@ import seaborn as sns
 # from mpl_toolkits.basemap import Basemap # so apparently this shit's been deprecated
 from matplotlib import cm #Colormap
 
+
 # animation Modules
 from matplotlib.animation import FuncAnimation
 import matplotlib.animation as animation
